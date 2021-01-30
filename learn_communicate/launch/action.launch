@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="learn_communicate" type="action_client" name="action_client" output="screen"/>
+    <node pkg="learn_communicate" type="action_server" name="action_server" output="screen"/>
+</launch>

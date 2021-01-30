@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" />
+    <node pkg="learn_communicate" type="homework1_2" name="control" output="screen"/>
+</launch>

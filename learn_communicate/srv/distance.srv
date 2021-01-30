@@ -1,0 +1,6 @@
+float32 point1_x
+float32 point1_y
+float32 point2_x
+float32 point2_y
+---
+float32 dis

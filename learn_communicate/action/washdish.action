@@ -1,0 +1,8 @@
+#goal
+uint32 dishwasher_id
+---
+#result:send once 
+uint32 total_dishes_cleaned
+---
+#feedback:send in time
+float32 perscent_complete

@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="learn_communicate" type="homework1_4_talker" name="talker_LaserScan" />
+    <!-- <node pkg="tf" type="static_transform_publisher" name="link_base_laser_broadcaster" args="10 0 20 0 0 0 base laser 100" /> -->
+    <node pkg="learn_communicate" type="homework1_4_listener" name="listener_LaserScan" output="screen" />
+
+</launch>
